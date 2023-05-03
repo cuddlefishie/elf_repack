@@ -1,0 +1,12 @@
+[package]
+name = "elf-repack"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+authors = ["Google LLC"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+object = { version = "0.28", features = ["write"] }
+humansize = "2.0"
